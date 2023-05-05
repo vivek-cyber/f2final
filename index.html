@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />    
+ 
+</head>
+<body>
+    <header>Student Protal</header>
+
+
+    <nav>
+       <input type="text" id="search" placeholder="Search">
+       <button onclick="searchitems()" id="searchbtn">Search</button> 
+    </nav>
+
+    <div class="sortbtns">
+        <button class="sortbtn" id="s1">Sort A->Z</button>
+        <button class="sortbtn" id="s2">Sort Z->A</button>
+        <button class="sortbtn" id="s3">Sort By Marks</button>
+        <button class="sortbtn" id="s4">Sort By Passing</button>
+        <button class="sortbtn" id="s5">Sort By Class</button>
+        <button class="sortbtn" id="s6">Sort By Gender</button>
+    </div>
+
+
+    <main>
+        <table  id="table" bg-color="#a3a3a3">
+            <thead>
+                <tr>
+                    <td id="ID">ID</td>
+                    <td id="name">Name</td>
+                    <td id="gender">Gender</td>
+                    <td id="class">Class</td>
+                    <td id="marks">Marks</td>
+                    <td id="pass">Passing</td>
+                    <td id="email">Email</td>
+                </tr>
+            </thead>
+            <tbody id="tbo">
+            
+        </tbody>
+        </table>
+        <table  id="table2" bg-color="#a3a3a3">
+            <thead>
+                <tr>
+                    <td id="ID">ID</td>
+                    <td id="name">Name</td>
+                    <td id="gender">Gender</td>
+                    <td id="class">Class</td>
+                    <td id="marks">Marks</td>
+                    <td id="pass">Passing</td>
+                    <td id="email">Email</td>
+                </tr>
+            </thead>
+            <tbody id="tbo2">
+            
+        </tbody>
+        </table>
+    </main>
+
+    <script src="./script.js"></script>
+</body>
+</html>

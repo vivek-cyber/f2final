@@ -1,0 +1,110 @@
+body
+{padding: 20px;
+    margin: 0%;
+    background-color: #cdcdcd;
+}
+
+header{
+margin: 0px;
+padding: 18px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+background-color: #000000;
+color: #ffffff;
+}
+
+nav
+{
+padding: 20px 0px;
+}
+#search
+{
+    width: 82%;
+    margin-right: 5px;
+    background-color: #d9d9d9;
+    border: 1.7px solid #000000;
+   
+
+}
+#search,#searchbtn
+{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    padding: 20px;
+    margin-top: 5px;
+}
+#searchbtn
+{
+    padding: 20px 60px;
+    background-color: #000000;
+color: #ffffff;
+}
+
+.sortbtns
+{
+    display: flex;
+    justify-content: space-between;
+    padding:  0px 5px;
+}
+.sortbtn
+{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 25px;
+    padding: 15px 40px;
+    background-color: #000000;
+color: #ffffff;
+}
+
+#table,#table2
+{
+    margin: 20px 0px;
+    width: 100%;
+    border-collapse: collapse;
+    
+    
+}
+
+table,thead>tr td,tbody tr td
+{
+   
+   
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    padding: 15px 10px;
+    border: 2px solid #4d4d4d;
+}
+
+                    /* <td id="ID">ID</td>
+                    <td id="name">Name</td>
+                    <td id="gender">Gender</td>
+                    <td id="class">Class</td>
+                    <td id="marks">Marks</td>
+                    <td id="pass">Passing</td>
+                    <td id="email">Email</td> */
+
+#ID{
+    width:20px;
+}
+
+#gender,#class,#marks,#pass
+{
+    width: 150px;
+    overflow-x: hidden;}
+
+#name
+{
+    display: flex;
+    flex-direction: row ;
+    text-align: center;
+    align-items: center;
+    gap: 5px;
+    border:0.5px solid #4d4d4d;
+}
